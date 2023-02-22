@@ -1,0 +1,25 @@
+@media screen and (max-width: 320px) {
+  form button.btn-warning.btn-m,
+  input {
+    box-sizing: border-box;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    width: calc(100% - 16px);
+    padding: 0px;
+  }
+  .user {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 321px) {
+  .user {
+    height: 160px;
+    width: 160px;
+  }
+  button {
+    box-sizing: border-box;
+    width: 186px;
+    padding: 0px;
+  }
+}

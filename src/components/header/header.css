@@ -1,0 +1,14 @@
+nav {
+  background-color: yellow;
+  justify-content: space-between;
+  width: 100%;
+}
+Navlink {
+  float: right;
+  list-style: none;
+}
+header nav Navlink {
+  display: inline;
+  margin-left: 10px;
+  cursor: pointer;
+}
